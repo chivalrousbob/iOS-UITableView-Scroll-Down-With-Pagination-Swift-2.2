@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A4007A1D53DD550057782A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A400791D53DD550057782A /* AppDelegate.swift */; };
+		04A4007C1D53DD550057782A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4007B1D53DD550057782A /* ViewController.swift */; };
+		04A4007F1D53DD550057782A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4007D1D53DD550057782A /* Main.storyboard */; };
+		04A400811D53DD550057782A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A400801D53DD550057782A /* Assets.xcassets */; };
+		04A400841D53DD550057782A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A400821D53DD550057782A /* LaunchScreen.storyboard */; };
+		04A4008F1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4008E1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.swift */; };
+		04A4009A1D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A400991D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A4008B1D53DD560057782A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A4006E1D53DD550057782A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A400751D53DD550057782A;
+			remoteInfo = TrivagoProjectByNouriAyoub;
+		};
+		04A400961D53DD560057782A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A4006E1D53DD550057782A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A400751D53DD550057782A;
+			remoteInfo = TrivagoProjectByNouriAyoub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A400761D53DD550057782A /* TrivagoProjectByNouriAyoub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivagoProjectByNouriAyoub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A400791D53DD550057782A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04A4007B1D53DD550057782A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04A4007E1D53DD550057782A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A400801D53DD550057782A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A400831D53DD550057782A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A400851D53DD550057782A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A4008A1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagoProjectByNouriAyoubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A4008E1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoProjectByNouriAyoubTests.swift; sourceTree = "<group>"; };
+		04A400901D53DD560057782A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A400951D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagoProjectByNouriAyoubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A400991D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoProjectByNouriAyoubUITests.swift; sourceTree = "<group>"; };
+		04A4009B1D53DD560057782A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A400731D53DD550057782A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400871D53DD560057782A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400921D53DD560057782A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A4006D1D53DD550057782A = {
+			isa = PBXGroup;
+			children = (
+				04A400781D53DD550057782A /* TrivagoProjectByNouriAyoub */,
+				04A4008D1D53DD560057782A /* TrivagoProjectByNouriAyoubTests */,
+				04A400981D53DD560057782A /* TrivagoProjectByNouriAyoubUITests */,
+				04A400771D53DD550057782A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A400771D53DD550057782A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A400761D53DD550057782A /* TrivagoProjectByNouriAyoub.app */,
+				04A4008A1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.xctest */,
+				04A400951D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A400781D53DD550057782A /* TrivagoProjectByNouriAyoub */ = {
+			isa = PBXGroup;
+			children = (
+				04A400791D53DD550057782A /* AppDelegate.swift */,
+				04A4007B1D53DD550057782A /* ViewController.swift */,
+				04A4007D1D53DD550057782A /* Main.storyboard */,
+				04A400801D53DD550057782A /* Assets.xcassets */,
+				04A400821D53DD550057782A /* LaunchScreen.storyboard */,
+				04A400851D53DD550057782A /* Info.plist */,
+			);
+			path = TrivagoProjectByNouriAyoub;
+			sourceTree = "<group>";
+		};
+		04A4008D1D53DD560057782A /* TrivagoProjectByNouriAyoubTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A4008E1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.swift */,
+				04A400901D53DD560057782A /* Info.plist */,
+			);
+			path = TrivagoProjectByNouriAyoubTests;
+			sourceTree = "<group>";
+		};
+		04A400981D53DD560057782A /* TrivagoProjectByNouriAyoubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A400991D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.swift */,
+				04A4009B1D53DD560057782A /* Info.plist */,
+			);
+			path = TrivagoProjectByNouriAyoubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A400751D53DD550057782A /* TrivagoProjectByNouriAyoub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A4009E1D53DD560057782A /* Build configuration list for PBXNativeTarget "TrivagoProjectByNouriAyoub" */;
+			buildPhases = (
+				04A400721D53DD550057782A /* Sources */,
+				04A400731D53DD550057782A /* Frameworks */,
+				04A400741D53DD550057782A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrivagoProjectByNouriAyoub;
+			productName = TrivagoProjectByNouriAyoub;
+			productReference = 04A400761D53DD550057782A /* TrivagoProjectByNouriAyoub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A400891D53DD560057782A /* TrivagoProjectByNouriAyoubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A400A11D53DD560057782A /* Build configuration list for PBXNativeTarget "TrivagoProjectByNouriAyoubTests" */;
+			buildPhases = (
+				04A400861D53DD560057782A /* Sources */,
+				04A400871D53DD560057782A /* Frameworks */,
+				04A400881D53DD560057782A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A4008C1D53DD560057782A /* PBXTargetDependency */,
+			);
+			name = TrivagoProjectByNouriAyoubTests;
+			productName = TrivagoProjectByNouriAyoubTests;
+			productReference = 04A4008A1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A400941D53DD560057782A /* TrivagoProjectByNouriAyoubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A400A41D53DD560057782A /* Build configuration list for PBXNativeTarget "TrivagoProjectByNouriAyoubUITests" */;
+			buildPhases = (
+				04A400911D53DD560057782A /* Sources */,
+				04A400921D53DD560057782A /* Frameworks */,
+				04A400931D53DD560057782A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A400971D53DD560057782A /* PBXTargetDependency */,
+			);
+			name = TrivagoProjectByNouriAyoubUITests;
+			productName = TrivagoProjectByNouriAyoubUITests;
+			productReference = 04A400951D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A4006E1D53DD550057782A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "AYOUB NOURI";
+				TargetAttributes = {
+					04A400751D53DD550057782A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					04A400891D53DD560057782A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04A400751D53DD550057782A;
+					};
+					04A400941D53DD560057782A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04A400751D53DD550057782A;
+					};
+				};
+			};
+			buildConfigurationList = 04A400711D53DD550057782A /* Build configuration list for PBXProject "TrivagoProjectByNouriAyoub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A4006D1D53DD550057782A;
+			productRefGroup = 04A400771D53DD550057782A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A400751D53DD550057782A /* TrivagoProjectByNouriAyoub */,
+				04A400891D53DD560057782A /* TrivagoProjectByNouriAyoubTests */,
+				04A400941D53DD560057782A /* TrivagoProjectByNouriAyoubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A400741D53DD550057782A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A400841D53DD550057782A /* LaunchScreen.storyboard in Resources */,
+				04A400811D53DD550057782A /* Assets.xcassets in Resources */,
+				04A4007F1D53DD550057782A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400881D53DD560057782A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400931D53DD560057782A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A400721D53DD550057782A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A4007C1D53DD550057782A /* ViewController.swift in Sources */,
+				04A4007A1D53DD550057782A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400861D53DD560057782A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A4008F1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400911D53DD560057782A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A4009A1D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A4008C1D53DD560057782A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A400751D53DD550057782A /* TrivagoProjectByNouriAyoub */;
+			targetProxy = 04A4008B1D53DD560057782A /* PBXContainerItemProxy */;
+		};
+		04A400971D53DD560057782A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A400751D53DD550057782A /* TrivagoProjectByNouriAyoub */;
+			targetProxy = 04A400961D53DD560057782A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A4007D1D53DD550057782A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A4007E1D53DD550057782A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A400821D53DD550057782A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A400831D53DD550057782A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A4009C1D53DD560057782A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A4009D1D53DD560057782A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A4009F1D53DD560057782A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrivagoProjectByNouriAyoub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.TrivagoProjectByNouriAyoub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A400A01D53DD560057782A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrivagoProjectByNouriAyoub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.TrivagoProjectByNouriAyoub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04A400A21D53DD560057782A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrivagoProjectByNouriAyoubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.TrivagoProjectByNouriAyoubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrivagoProjectByNouriAyoub.app/TrivagoProjectByNouriAyoub";
+			};
+			name = Debug;
+		};
+		04A400A31D53DD560057782A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrivagoProjectByNouriAyoubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.TrivagoProjectByNouriAyoubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrivagoProjectByNouriAyoub.app/TrivagoProjectByNouriAyoub";
+			};
+			name = Release;
+		};
+		04A400A51D53DD560057782A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrivagoProjectByNouriAyoubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.TrivagoProjectByNouriAyoubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrivagoProjectByNouriAyoub;
+			};
+			name = Debug;
+		};
+		04A400A61D53DD560057782A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrivagoProjectByNouriAyoubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.TrivagoProjectByNouriAyoubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrivagoProjectByNouriAyoub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A400711D53DD550057782A /* Build configuration list for PBXProject "TrivagoProjectByNouriAyoub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A4009C1D53DD560057782A /* Debug */,
+				04A4009D1D53DD560057782A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A4009E1D53DD560057782A /* Build configuration list for PBXNativeTarget "TrivagoProjectByNouriAyoub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A4009F1D53DD560057782A /* Debug */,
+				04A400A01D53DD560057782A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04A400A11D53DD560057782A /* Build configuration list for PBXNativeTarget "TrivagoProjectByNouriAyoubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A400A21D53DD560057782A /* Debug */,
+				04A400A31D53DD560057782A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04A400A41D53DD560057782A /* Build configuration list for PBXNativeTarget "TrivagoProjectByNouriAyoubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A400A51D53DD560057782A /* Debug */,
+				04A400A61D53DD560057782A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A4006E1D53DD550057782A /* Project object */;
+}
