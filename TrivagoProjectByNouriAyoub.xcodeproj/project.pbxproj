@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049E48991D5BBD9A00A673FB /* MostPopularMoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E48981D5BBD9A00A673FB /* MostPopularMoviesVC.swift */; };
+		049E489B1D5CA14500A673FB /* movie-placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049E489A1D5CA14500A673FB /* movie-placeholder.jpg */; };
+		049E489D1D5CA36500A673FB /* posterPlaceholder1.png in Resources */ = {isa = PBXBuildFile; fileRef = 049E489C1D5CA36500A673FB /* posterPlaceholder1.png */; };
 		04A4007A1D53DD550057782A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A400791D53DD550057782A /* AppDelegate.swift */; };
-		04A4007C1D53DD550057782A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4007B1D53DD550057782A /* ViewController.swift */; };
 		04A4007F1D53DD550057782A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4007D1D53DD550057782A /* Main.storyboard */; };
 		04A400811D53DD550057782A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A400801D53DD550057782A /* Assets.xcassets */; };
 		04A400841D53DD550057782A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A400821D53DD550057782A /* LaunchScreen.storyboard */; };
 		04A4008F1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4008E1D53DD560057782A /* TrivagoProjectByNouriAyoubTests.swift */; };
 		04A4009A1D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A400991D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.swift */; };
+		04A400AF1D540CF00057782A /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A400AE1D540CF00057782A /* URL.swift */; };
+		04A400B11D5636CB0057782A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A400B01D5636CB0057782A /* DataManager.swift */; };
+		04A400B31D56374B0057782A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A400B21D56374B0057782A /* Movie.swift */; };
+		04A400C31D580EC30057782A /* MostPopularMoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A400C21D580EC30057782A /* MostPopularMoviesCell.swift */; };
+		FB614A875173FBAA8C49C4F3 /* Pods_TrivagoProjectByNouriAyoub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77263F4A62BB34F02014D94E /* Pods_TrivagoProjectByNouriAyoub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049E48981D5BBD9A00A673FB /* MostPopularMoviesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopularMoviesVC.swift; sourceTree = "<group>"; };
+		049E489A1D5CA14500A673FB /* movie-placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "movie-placeholder.jpg"; sourceTree = "<group>"; };
+		049E489C1D5CA36500A673FB /* posterPlaceholder1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = posterPlaceholder1.png; sourceTree = "<group>"; };
 		04A400761D53DD550057782A /* TrivagoProjectByNouriAyoub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivagoProjectByNouriAyoub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A400791D53DD550057782A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04A4007B1D53DD550057782A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04A4007E1D53DD550057782A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A400801D53DD550057782A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A400831D53DD550057782A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,16 @@
 		04A400951D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagoProjectByNouriAyoubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A400991D53DD560057782A /* TrivagoProjectByNouriAyoubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoProjectByNouriAyoubUITests.swift; sourceTree = "<group>"; };
 		04A4009B1D53DD560057782A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A400AE1D540CF00057782A /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		04A400B01D5636CB0057782A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		04A400B21D56374B0057782A /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		04A400B81D57FCEB0057782A /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		04A400BD1D57FCEB0057782A /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		04A400BF1D57FCEB0057782A /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		04A400C21D580EC30057782A /* MostPopularMoviesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopularMoviesCell.swift; sourceTree = "<group>"; };
+		57E70416CA22377A8059C882 /* Pods-TrivagoProjectByNouriAyoub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagoProjectByNouriAyoub.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrivagoProjectByNouriAyoub/Pods-TrivagoProjectByNouriAyoub.release.xcconfig"; sourceTree = "<group>"; };
+		77263F4A62BB34F02014D94E /* Pods_TrivagoProjectByNouriAyoub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrivagoProjectByNouriAyoub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		971DBE80B2D1FE67E509D3E5 /* Pods-TrivagoProjectByNouriAyoub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagoProjectByNouriAyoub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrivagoProjectByNouriAyoub/Pods-TrivagoProjectByNouriAyoub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB614A875173FBAA8C49C4F3 /* Pods_TrivagoProjectByNouriAyoub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,8 @@
 				04A4008D1D53DD560057782A /* TrivagoProjectByNouriAyoubTests */,
 				04A400981D53DD560057782A /* TrivagoProjectByNouriAyoubUITests */,
 				04A400771D53DD550057782A /* Products */,
+				0BA29A7EDC53C4A05BFE0D91 /* Pods */,
+				6CC397F907FF67086B227818 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +119,12 @@
 		04A400781D53DD550057782A /* TrivagoProjectByNouriAyoub */ = {
 			isa = PBXGroup;
 			children = (
+				04A400AB1D5407A20057782A /* Resources */,
+				04A400AA1D5407940057782A /* DAO */,
+				04A400A91D5406FF0057782A /* Cell */,
+				04A400A81D5406F10057782A /* Model */,
+				04A400A71D5406E40057782A /* Controller */,
 				04A400791D53DD550057782A /* AppDelegate.swift */,
-				04A4007B1D53DD550057782A /* ViewController.swift */,
 				04A4007D1D53DD550057782A /* Main.storyboard */,
 				04A400801D53DD550057782A /* Assets.xcassets */,
 				04A400821D53DD550057782A /* LaunchScreen.storyboard */,
@@ -125,6 +151,84 @@
 			path = TrivagoProjectByNouriAyoubUITests;
 			sourceTree = "<group>";
 		};
+		04A400A71D5406E40057782A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				049E48981D5BBD9A00A673FB /* MostPopularMoviesVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04A400A81D5406F10057782A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A400B21D56374B0057782A /* Movie.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04A400A91D5406FF0057782A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04A400C21D580EC30057782A /* MostPopularMoviesCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		04A400AA1D5407940057782A /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				04A400AE1D540CF00057782A /* URL.swift */,
+				04A400B01D5636CB0057782A /* DataManager.swift */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		04A400AB1D5407A20057782A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04A400AD1D5407BE0057782A /* Fonts */,
+				04A400AC1D5407B10057782A /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		04A400AC1D5407B10057782A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				049E489A1D5CA14500A673FB /* movie-placeholder.jpg */,
+				049E489C1D5CA36500A673FB /* posterPlaceholder1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		04A400AD1D5407BE0057782A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04A400B81D57FCEB0057782A /* OpenSans-Bold.ttf */,
+				04A400BD1D57FCEB0057782A /* OpenSans-Light.ttf */,
+				04A400BF1D57FCEB0057782A /* OpenSans-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		0BA29A7EDC53C4A05BFE0D91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				971DBE80B2D1FE67E509D3E5 /* Pods-TrivagoProjectByNouriAyoub.debug.xcconfig */,
+				57E70416CA22377A8059C882 /* Pods-TrivagoProjectByNouriAyoub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CC397F907FF67086B227818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77263F4A62BB34F02014D94E /* Pods_TrivagoProjectByNouriAyoub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A4009E1D53DD560057782A /* Build configuration list for PBXNativeTarget "TrivagoProjectByNouriAyoub" */;
 			buildPhases = (
+				B663F96F3D86A9305FCBD098 /* Check Pods Manifest.lock */,
 				04A400721D53DD550057782A /* Sources */,
 				04A400731D53DD550057782A /* Frameworks */,
 				04A400741D53DD550057782A /* Resources */,
+				FEE70A61B25562C74142B0A7 /* Embed Pods Frameworks */,
+				C79B77867353822A27623EF3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +336,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049E489B1D5CA14500A673FB /* movie-placeholder.jpg in Resources */,
+				049E489D1D5CA36500A673FB /* posterPlaceholder1.png in Resources */,
 				04A400841D53DD550057782A /* LaunchScreen.storyboard in Resources */,
 				04A400811D53DD550057782A /* Assets.xcassets in Resources */,
 				04A4007F1D53DD550057782A /* Main.storyboard in Resources */,
@@ -251,13 +360,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B663F96F3D86A9305FCBD098 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C79B77867353822A27623EF3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrivagoProjectByNouriAyoub/Pods-TrivagoProjectByNouriAyoub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE70A61B25562C74142B0A7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrivagoProjectByNouriAyoub/Pods-TrivagoProjectByNouriAyoub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04A400721D53DD550057782A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A4007C1D53DD550057782A /* ViewController.swift in Sources */,
+				04A400B11D5636CB0057782A /* DataManager.swift in Sources */,
 				04A4007A1D53DD550057782A /* AppDelegate.swift in Sources */,
+				04A400AF1D540CF00057782A /* URL.swift in Sources */,
+				04A400C31D580EC30057782A /* MostPopularMoviesCell.swift in Sources */,
+				049E48991D5BBD9A00A673FB /* MostPopularMoviesVC.swift in Sources */,
+				04A400B31D56374B0057782A /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +515,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -391,12 +553,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		04A4009F1D53DD560057782A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971DBE80B2D1FE67E509D3E5 /* Pods-TrivagoProjectByNouriAyoub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrivagoProjectByNouriAyoub/Info.plist;
@@ -408,6 +572,7 @@
 		};
 		04A400A01D53DD560057782A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E70416CA22377A8059C882 /* Pods-TrivagoProjectByNouriAyoub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrivagoProjectByNouriAyoub/Info.plist;
@@ -482,6 +647,7 @@
 				04A400A01D53DD560057782A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A400A11D53DD560057782A /* Build configuration list for PBXNativeTarget "TrivagoProjectByNouriAyoubTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +656,7 @@
 				04A400A31D53DD560057782A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A400A41D53DD560057782A /* Build configuration list for PBXNativeTarget "TrivagoProjectByNouriAyoubUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +665,7 @@
 				04A400A61D53DD560057782A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
